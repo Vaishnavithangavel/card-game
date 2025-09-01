@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply bg-gray-100 text-gray-900 antialiased;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Glass effect class (used in your App.jsx) */
+.glass {
+  @apply bg-white/30 backdrop-blur-md border border-white/40 shadow-md;
+}
+
+/* Scrollbar customization (optional, looks cleaner) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
