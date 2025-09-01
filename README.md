@@ -67,4 +67,3 @@ Include an **odds tooltip** on each pack explaining these percentages.
   - README (this file) + asset credits
 
 
-## 📁 Suggested Project Structure
